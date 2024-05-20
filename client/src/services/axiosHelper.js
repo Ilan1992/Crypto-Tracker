@@ -9,6 +9,7 @@ const baseUrl =
 const baseApi = axios.create({
   baseURL: `${baseUrl}/api`,
 });
+console.log(baseUrl);
 
 
 
